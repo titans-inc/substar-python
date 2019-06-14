@@ -5,7 +5,7 @@ setup(
     author_email='deviprsd21@gmail.com',
     description='',
     name='SubStar',
-    license='GPLv3+',
+    license='GPLv3',
     long_description=open('README.md').read(),
     packages=find_packages(),
     platforms='any',
