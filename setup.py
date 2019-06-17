@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from substar import __version__
 
 setup(
     author='Devi Prasad',
@@ -10,7 +11,7 @@ setup(
     packages=find_packages(),
     platforms='any',
     url='https://github.com/titans-inc/substar-python',
-    version='0.0.1-alpha',
+    version=__version__,
     classifiers=[
         'Programming Language :: Python'
     ]
